@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/reg_back1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.RegistrationFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:background="@drawable/cardback"
+        android:backgroundTint="@color/card"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="110dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:background="@null"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/registration"
+                android:paddingStart="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                tools:ignore="InefficientWeight,RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/login_ed"
+                android:maxLines="1"
+                android:inputType="text"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor"
+                android:drawableStart="@drawable/ic_action_user"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/greenwhite"
+                android:hint="@string/username"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="1dp"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/password_ed"
+                android:hint="@string/password"
+                android:drawableStart="@drawable/ic_action_password"
+                android:drawablePadding="10dp"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor"
+                android:maxLines="1"
+                android:textColorHint="@color/greenwhite"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/greenwhite"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="1dp"
+                android:textSize="24sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/reg_btn"
+                android:background="@drawable/button_background"
+                android:layout_width="200dp"
+                android:text="@string/create"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:padding="1dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/sightin_tv"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:padding="9dp"
+                android:layout_width="match_parent"
+                android:text="@string/have_account"
+                android:textColor="@color/blue"
+                android:textSize="17sp"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

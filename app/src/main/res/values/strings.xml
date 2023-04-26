@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BeGuess</string>
+    <string name="password">Пароль</string>
+    <string name="username">Имя пользователя</string>
+    <string name="registration">Регистрация</string>
+    <string name="sightin">Вход</string>
+    <string name="create">Создать</string>
+    <string name="sightin_btn">Войти</string>
+    <string name="have_account">Уже есть аккаунт? Нажмите для входа.</string>
+    <string name="dont_have_account">Нет аккаунта? Нажмите чтобы создать.</string>
+    <string name="lsit_btn">users</string>
+    <string name="exit">Выйти из аккаунта.</string>
+    <string name="guess_btn">проверить</string>
+    <string name="fields_error">Заполните все поля.</string>
+    <string name="sign_error">Пользователь не найден.</string>
+    <string name="reg_error">Пользователь уже существует.</string>
+    <string name="answer_error">Неправильно. Процент сходства:</string>
+    <string name="field_error">Введите слово.</string>
+    <string name="info">Задания появляются ежедневно после 00:00 по мск.</string>
+    <string name="success">ВЫ УГАДАЛИ!!!</string>
+
+</resources>
